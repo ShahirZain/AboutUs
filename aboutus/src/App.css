@@ -31,3 +31,18 @@
     transform: rotate(360deg);
   }
 }
+.centered {
+  padding: 16px 16px;
+  color: #fff;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 800px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0,0,0,0.5);
+}
+.whoWeAre{
+  display: block;
+  width: 100%;
+}
