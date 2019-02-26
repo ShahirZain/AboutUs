@@ -1,13 +1,13 @@
 import React from 'react';
 import './image2.css'
 const Image2 = (props) => {
-    const   {imageSource,project,discription,link,button,height}=props;
+    const   {imageSource,project,discription,link,button,columnName}=props;
     return (  
 
-<div className="row">
+<div className={columnName} >
   <div className="column">
     <div className="card">
-      <img src={imageSource} alt="Image" style={{width:'100%', height:{height}}} className='image' />
+      <img src={imageSource} alt="Image" style={{width:'100%'}} className='image' />
       <div className="container">
         <h2>{project}</h2>
         <p>{discription}</p>
